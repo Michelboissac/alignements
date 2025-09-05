@@ -1,0 +1,6 @@
+verifiez si R est insatllé ou non sur votre ordinateur.
+Si une version antérieure à la 4.5.1 est installée, la desinstaller et insatller la 4.5.1 : 
+
+telechargez R 4.5.1  : https://cran.r-project.org/bin/windows/base/R-4.5.1-win.exe
+
+ouvrir le script analyse.R et appuyer sur "source"
