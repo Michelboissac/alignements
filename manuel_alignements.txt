@@ -34,6 +34,7 @@ quelques commandes utiles en linux :
     cd /mnt/c/dossier1/dossier2/etc
 
 4) une fois dans le repertoire lancer le script python de la maniere suivante :
+(à faire une seule fois : pip install streamlit)
 streamlit run script.py
 
-5) une page web va s'ouvrir, rentrez les parametres.
+5) une page web va s'ouvrir, rentrez les parametres.  
