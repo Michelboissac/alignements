@@ -2182,18 +2182,5 @@ server <- function(input, output, session) {
 
 # =============================================================================
 # Lancement de l'application
-# =============================================================================
-launch_analysis_dashboard <- function() {
-  cat("🚀 Lancement de l'interface Shiny RNA-seq...\n")
-  cat("📁 Vérifiez que vos variables sont chargées:\n")
-  cat("   - counts, counts_norm, counts_genes, counts_norm_genes\n")
-  cat("   - nom_repertoire_output, chemin_repertoire_output\n")
-  cat("   - normalisation, noms_genes\n")
-  cat("   - Toutes vos functions (function_heatmap, etc.)\n")
-  cat("\n🌐 L'interface va s'ouvrir dans votre navigateur...\n")
-  
-  shinyApp(ui = ui, server = server)
-}
 
-# Pour lancer l'application, utilisez:
-launch_analysis_dashboard()
+shiny::shinyApp(ui = ui, server = server)
