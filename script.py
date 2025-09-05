@@ -5,14 +5,14 @@ st.title("Setup & Analyse")
 
 # Champs pour les paramètres de l'analyse
 st.subheader("Run Analysis")
-param1 = st.text_input("dossier travail")
-param2 = st.text_input("dossier genome (ou telecharger)")
-param3 = st.text_input("extension")
-param4 = st.text_input("dossier reads (ou telecharger)")
-param5 = st.text_input("nom base projet")
-param6 = st.text_input("liste SRA")
-param7 = st.text_input("technologie de séquençage short long")
-param8 = st.text_input("single or pair end ?")
+param1 = st.text_input("dossier travail", placeholder="/mnt/c/etc/dossier_travail/  remplacer les debuts de chemin : C:/ par /mnt/c/")
+param2 = st.text_input("dossier genome (ou telecharger)", placeholder="telecharger OU /mnt/c/etc/dossier_travail/genome_telechargé_et_indexé/")
+param3 = st.text_input("extension", placeholder=".fastq")
+param4 = st.text_input("dossier reads (ou telecharger)", placeholder="telecharger OU /mnt/c/etc/dossier_travail/reads/")
+param5 = st.text_input("nom base projet", placeholder="PRJ_xxxxxxx_Ovaries    > créer un sous dossier : /mnt/c/etc/dossier_travail/PRJ_xxxxxxx_Ovaries/")
+param6 = st.text_input("liste SRA", placeholder="laisser vide si on telecharge les SRA, sinon :\"SRRXXXXXX1 SRRXXXXXX2\" metre \"\" autour")
+param7 = st.text_input("technologie de séquençage short long", placeholder="short ou long")
+param8 = st.text_input("single or pair end ?", placeholder="single ou pair")
 
 
 
