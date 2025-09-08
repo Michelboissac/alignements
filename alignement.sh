@@ -14,7 +14,7 @@ single_or_pair_end=$8
 cd --
 #nom de la matrice d'alignement :
 nom_matrice_alignement="${NOM_BASE_PROJET}_${technologie_de_sequencage}_${single_or_pair_end}_counts.txt"
-DOSSIER_TRAVAIL_projet="${DOSSIER_TRAVAIL}${NOM_BASE_PROJET}_${technologie_de_sequencage}_${single_or_pair_end}/"
+DOSSIER_TRAVAIL_projet="${DOSSIER_TRAVAIL}${NOM_BASE_PROJET}/"
 
 #genome fasta
 nom_genome=GCF_003254395.2_Amel_HAv3.1_genomic.fna
