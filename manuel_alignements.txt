@@ -8,8 +8,7 @@ conda create --yes -n TOOLS_env -c bioconda -c conda-forge \
     minimap2=2.22 \
     hisat2=2.2.1 \
     subread=2.0.1 \
-    sra-tools=3.2.1 \
-    trinity=2.15.1
+    sra-tools=3.2.1
 
 2)activer l'environnement avec la commande :
 conda activate TOOLS_env
